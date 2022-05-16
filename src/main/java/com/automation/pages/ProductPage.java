@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
 public class ProductPage extends Utility {
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(ProductPage.class.getName());
 
     public ProductPage() {
         PageFactory.initElements(driver, this);
@@ -108,6 +108,5 @@ public class ProductPage extends Utility {
         Reporter.log("Getting Confirm Message " + confirmMessage.toString());
         return getTextFromElement(confirmMessage).substring(0, 49);
     }
-
 
 }

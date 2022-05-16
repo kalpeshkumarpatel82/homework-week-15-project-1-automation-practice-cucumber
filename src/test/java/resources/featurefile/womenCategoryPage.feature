@@ -1,4 +1,4 @@
-@Kalpesh
+@regression
 Feature: Testing women category page
 
   Scenario: Verify User should navigate to women Category Page successfully

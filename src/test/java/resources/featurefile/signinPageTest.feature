@@ -1,4 +1,4 @@
-@Kalpesh
+@regression
 Feature: Testing Sign in Page functionality
 
   Scenario: User should navigate to Sign In Page successFully

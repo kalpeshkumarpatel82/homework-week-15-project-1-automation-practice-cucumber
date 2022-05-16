@@ -17,7 +17,7 @@ import org.junit.AfterClass;
         plugin = {"pretty", "html:target/cucumber-report/cucumber.html",
                 "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html"
         },
-        tags = "@Kalpesh"
+        tags = "@regression"
 )
 
 public class TestRunner {

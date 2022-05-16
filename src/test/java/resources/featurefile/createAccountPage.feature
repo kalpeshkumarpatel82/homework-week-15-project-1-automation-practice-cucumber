@@ -1,4 +1,4 @@
-@Kalpesh
+@regression
 Feature: Create Account Page test
 
   Scenario: Verify that User should create Account Successfully
@@ -28,3 +28,4 @@ Feature: Create Account Page test
     And I enter "shankar_trivedi" in Alias field
     And I click on register button
     Then I see the "MY ACCOUNT" in page header
+    
